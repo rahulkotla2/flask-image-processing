@@ -528,4 +528,4 @@ def crop():
     return jsonify({'image': Encoded_Image, 'OriginalImage': OriginalImage})
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0",port=5000)
